@@ -4,7 +4,6 @@
 }
 
 body {
-    /*background: #cf3d41;*/
     background: rgba(0, 0, 0, 0.8);
     font-family: 'latoregular';
     font-size: 14px;
@@ -13,13 +12,11 @@ body {
 }
 
 a:hover {
-    /*color: */
     text-decoration: none;
 }
 
 .quick-tools {
     height: 57px;
-    padding: 15px 0;
 }
 
 .navbar {
@@ -54,8 +51,6 @@ a:hover {
 .navbar-brand {
     color: #fff;
     font-size: 30px;
-    /*padding-top: 6px;
-    padding-bottom: 6px;*/
 }
 
 .navbar-brand:focus, .navbar-brand:hover {
@@ -201,4 +196,47 @@ a:hover {
 
 .copy-col-right {
     text-align: right;
+}
+
+.btn {
+    font-weight: 500;
+    border-radius: 2px;
+    outline: 0;
+}
+
+.form-control {
+    border-radius: 2px;
+    border: 0;
+    border-right: 1px solid #ccc;
+}
+
+.bg-light {
+    color: #58666e;
+    background-color: #edf1f2;
+}
+
+.quick-tools .input-group {
+    width: 210px;
+    display: inline-table;
+    vertical-align: middle;
+}
+
+.quick-tools .navbar-form {
+    margin-top: 12px;
+    margin-bottom: 11px;
+    padding-top: 0;
+    padding-bottom: 0; 
+}
+
+.quick-tools .navbar-right {
+    float: right;
+}
+
+.quick-tools .post-btn {
+    width: 75px;
+    text-align: center;
+}
+
+.white-transparant-bg {
+    background-color: rgba(255, 255, 255, 0.5);
 }
