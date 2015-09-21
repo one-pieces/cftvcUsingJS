@@ -12,6 +12,10 @@ app.set('view engine', 'html'); //替换文件扩展名ejs为html
 
 app.use(express.static(path.join(__dirname, 'app')));
 
+app.get('/cftvc*', function(req, res) {
+	res.render('index.html');
+});
+
 server.listen(app.get('port'), function() {
 	console.log('cftvc is listening port ' + app.get('port'));
 });
