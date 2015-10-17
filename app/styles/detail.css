@@ -1,0 +1,51 @@
+.detail {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #F5FAFF;
+}
+
+.detail .name {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.detail .location {
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.detail .appointment {
+    /*font-size: 10px;*/
+    margin-top: 25px;
+}
+
+.detail .post-masonry .post-thumb {
+    height: 480px;
+}
+
+.detail .info {
+    background-color: #F5FAFF;
+    height: 480px;
+    display: block;
+    padding: 20px;
+    color: #0e0e0e;
+}
+
+.detail .info .title {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.detail .info .item {
+    font-size: 13px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.detail .info .item .strong {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
